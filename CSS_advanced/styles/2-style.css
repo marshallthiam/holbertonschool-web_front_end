@@ -1,0 +1,55 @@
+/* 2-style.css */
+
+/* Base styles */
+body {
+  color: #161616;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+
+/* Anchor elements */
+a {
+  color: #161616;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Visually hidden elements */
+.visually-hidden {
+  display: none;
+}
+
+/* Card category */
+.card-category {
+  color: #D73953;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
+
+/* Section tagline */
+.section-tagline {
+  color: #D73953;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+/* Optional additional styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  background-color: #fafafa;
+  margin-bottom: 1.5rem;
+}
